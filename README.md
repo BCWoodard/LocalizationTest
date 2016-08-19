@@ -1,10 +1,21 @@
 # Simple Text Localization in Swift
+This is a basic project in Swift that incorporates the localization of text. Follow the steps outlined below to recreate the project or download for yourself.
 
-1. Create a new project
+Initial Setup
+======
+1. Create a new Swift project (I called mine LocalizationTest)
+A single view application is sufficient.
 2. Embed view controller in a navigation controller
+This isn’t necessary, I just do this to demonstrate the localization of the title in a navigation bar.
 3. Add a couple labels to the view controller
+I set one label as a “title” and the other as a “subtitle” and configure the constraints.
 4. Wire the labels up to the view controller
-5. Ensure “Use Base Internationalization” is selected (Project Navigator -> Project -> Info)
+Create IBOutlets in the ViewController and connect to each respective label.
+
+Localization
+======
+1. Ensure “Use Base Internationalization” is selected.
+Project Navigator -> Project -> Info and confirm that “Use Base Internationalization” (at the bottom of the info screen) is selected. This is typically selected by default but it is always a good idea to confirm.
 6. Add a .strings file (CMD+n/File -> New… -> File -> iOS Resource -> Strings File. Localizable and save to project)
 7. Add values for the navigation bar title and two labels to the strings file (paying special attention to the syntax)
 8. Return to the view controller and set the text in the navigation bar and two labels to the values from the Localizable.strings file
