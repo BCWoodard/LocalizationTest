@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LocalizationTest2
+
+  Created by Brad Woodard on 8/19/16.
+  Copyright © 2016 Brad Woodard. All rights reserved.
+*/
+
+nav_bar_title = "你好，世界";
+label_title = "標題標籤";
+label_subtitle = "字幕標籤";

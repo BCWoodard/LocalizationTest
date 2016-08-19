@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LocalizationTest2
+
+  Created by Brad Woodard on 8/19/16.
+  Copyright © 2016 Brad Woodard. All rights reserved.
+*/
+
+nav_bar_title = "مرحبا بالعالم";
+label_title = "تسمية عنوان";
+label_subtitle = "تسمية الترجمة";
