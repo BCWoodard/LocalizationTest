@@ -9,9 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var labelSubtitle: UILabel!
 
+    //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = NSLocalizedString("nav_bar_title", comment: "Navigation Bar Title")
@@ -19,11 +21,8 @@ class ViewController: UIViewController {
         labelSubtitle.text = NSLocalizedString("label_subtitle", comment: "Label Subtitle")
     }
 
+    //MARK: - Cleanup
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
-
