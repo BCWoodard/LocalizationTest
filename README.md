@@ -29,11 +29,12 @@ labelTitle.text = NSLocalizedString("LABEL_TITLE", comment: "Title Label")
 labelSubtitle.text = NSLocalizedString("LABEL_SUBTITLE", comment: "Subtitle Label")
 ```
 I would run the app at this point to confirm that the values are being retrieved and added to the nav bar and labels.
+
 5. Add another language to the project.
 To do this, return to the project’s info screen (Project Navigator -> Project -> Info) and select the plus (+) sign under Localizations. Choose the desired language from the available options. I selected German.
 6. Add language-specific Localizable.strings file. 
 Go back to the Project Navigator and highlight your Localizable.strings file. Then in the File Inspector, select “Localize…”. In the subsequent window, ensure that Localizable.strings is highlighted and select “Finish” (Since we’re just adding the localizable strings, you can deselect Main.storyboard and LaunchScreen.storyboard. If your app was going to have a different launch screen and layout based on region then you can add those to your project). Back under Project Navigator, confirm that Localizable.strings now has two files underneath (Base and German, in our case).
-7. Edit the Localizable.strings (German) file
+7. Edit the Localizable.strings (German) file. 
 For each of the values defined in the Localizable.strings file add the German equivalent. For example, NAV_BAR_TITLE = “Lokalisierung”;
 
 See Your Work In Action
